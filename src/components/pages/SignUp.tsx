@@ -98,13 +98,13 @@ const SignUp: React.FC = () => {
               })}
             />
           </div>
-          <button className="bg-blue-600 shadow-sm shadow-blue-800 text-white w-full p-1 uppercase transition-opacity hover:opacity-80">
+          <button className="bg-blue-800 text-white w-full p-1 uppercase transition-opacity hover:opacity-80">
             sign up
           </button>
         </form>
         <Link
           to="/login"
-          className="bg-gray-600 shadow-sm shadow-gray-800 text-white text-center w-full p-1 transition-opacity inline-block hover:opacity-80"
+          className="bg-stone-700 text-white text-center w-full p-1 transition-opacity inline-block hover:opacity-80"
         >
           ログインはこちらから
         </Link>
